@@ -3,7 +3,9 @@
 // npm i axios
 import axios from 'axios'
 
-const URL = "http://localhost:3000";
+// const URL = "http://localhost:3000";
+// Depois do deploy
+const URL = "https://projeto-spotify-hha5.onrender.com/api";
 
 const responseArtists = await axios.get(`${URL}/artists`);
 const responseSongs = await axios.get(`${URL}/songs`);

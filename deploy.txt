@@ -1,0 +1,43 @@
+1. criar repositório
+git init
+
+2. git ignore em front e back-end:
+node_modules
+.env
+
+3. git add .
+git commit -m ""
+copiar comandos do github
+
+4. npm init -y em projeto-spotify
+
+5. json em projeto-spotify:
+build: npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end
+start: npm run start --prefix back-end
+
+6. vite.config.js em front-end
+
+7. json do back-end:
+script:
+start: node ./api/server.js
+
+*8. npm i mongodb em back-end
+
+// npm run build
+*front-end pasta dist
+
+// npm run start
+
+9. não fazer: npm i dotenv em front-end
+
+10. npm i path em back-end
+
+11. excluir node_modules
+
+12. git add .
+git commit -m ""
+git push
+
+13. Adicionar no Render
+
+14. Copiar o link em api.js em front-end e 12.
